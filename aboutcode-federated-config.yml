@@ -1,13 +1,17 @@
 name: aboutcode-data
-remote_root_url: 'https://github.com/aboutcode-data'
+remote_root_url: https://github.com/aboutcode-data
 description: Config for AboutCode package metadata federation.
 documentation_url: null
 data_license: null
 data_maintainers:
-  - Ayan Mahapatra
-  - Jonathan Yang
-  - Keshav Priyadarshi
-  - Philippe Ombredanne
+  - name: Ayan Mahapatra
+    email: asmahapatra@aboutcode.org
+  - name: Jonathan Yang
+    email: jyang@aboutcode.org
+  - name: Keshav Priyadarshi
+    email: kpriyadarshi@aboutcode.org
+  - name: Philippe Ombredanne
+    email: pombredanne@aboutcode.org
 data_clusters:
   - data_kind: purls
     datafile_path_template: '{namespace}/{name}/purls.yml'
