@@ -14,7 +14,7 @@ data_maintainers:
     email: pombredanne@aboutcode.org
 data_clusters:
   - data_kind: purls
-    datafile_path_template: '{namespace}/{name}/purls.yml'
+    datafile_path_template: '{/namespace}/{name}/purls.yml'
     purl_type_configs:
       - purl_type: github
         number_of_repos: 128
