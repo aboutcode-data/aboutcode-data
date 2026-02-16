@@ -90,3 +90,80 @@ data_clusters:
     documentation_url: 'https://github.com/package-url/purl-spec/'
     data_license: CC-BY-4.0
     data_maintainers: []
+  - data_kind: security_advisories
+    datafile_path_template: '{/namespace}/{name}/{version}/advisories.yml'
+    purl_type_configs:
+      - purl_type: github
+        number_of_repos: 128
+        number_of_dirs: 1024
+      - purl_type: npm
+        number_of_repos: 128
+        number_of_dirs: 1024
+      - purl_type: golang
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: maven
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: nuget
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: perl
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: php
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: pypi
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: ruby
+        number_of_repos: 16
+        number_of_dirs: 1024
+      - purl_type: alpm
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: bitbucket
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: cargo
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: cocoapods
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: composer
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: deb
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: docker
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: gem
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: generic
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: huggingface
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: mlflow
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: pub
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: rpm
+        number_of_repos: 4
+        number_of_dirs: 1024
+      - purl_type: default
+        number_of_repos: 1
+        number_of_dirs: 1024
+    data_schema_url: null
+    description: 'VulnerableCode security advisories for each package version.'
+    documentation_url: 'https://github.com/aboutcode-org/vulnerablecode/'
+    data_license: CC-BY-4.0
+    data_maintainers: []
