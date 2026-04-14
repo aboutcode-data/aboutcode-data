@@ -101,8 +101,8 @@ data_clusters:
     documentation_url: 'https://github.com/aboutcode-org/vulnerablecode/'
     data_license: CC-BY-4.0
     data_maintainers: []
-  - data_kind: api_package_metadata
-    datafile_path_template: '{/namespace}/{name}/{version}/api_package_metadata.yml'
+  - data_kind: api_package_version_responses
+    datafile_path_template: '{/namespace}/{name}/{version}/api_package_version_response.json'
     purl_type_configs:
       - purl_type: github
         number_of_repos: 128
