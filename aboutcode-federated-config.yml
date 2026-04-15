@@ -14,7 +14,8 @@ data_maintainers:
     email: pombredanne@aboutcode.org
 data_clusters:
   - data_kind: purls
-    datafile_path_template: '{/namespace}/{name}/purls.yml'
+    datafile_name: purls.yml
+    datafile_path_template: '{/namespace}/{name}/{datafile_name}'
     purl_type_configs:
       - purl_type: github
         number_of_repos: 128
@@ -91,7 +92,8 @@ data_clusters:
     data_license: CC-BY-4.0
     data_maintainers: []
   - data_kind: security_advisories
-    datafile_path_template: '{/namespace}/{name}/{version}/advisories.yml'
+    datafile_name: advisories.yml
+    datafile_path_template: '{/namespace}/{name}/{version}/{datafile_name}'
     purl_type_configs:
       - purl_type: default
         number_of_repos: 1
@@ -102,7 +104,8 @@ data_clusters:
     data_license: CC-BY-4.0
     data_maintainers: []
   - data_kind: api_package_version_responses
-    datafile_path_template: '{/namespace}/{name}/{version}/api_package_version_response.json'
+    datafile_name: api_package_version_response.json
+    datafile_path_template: '{/namespace}/{name}/{version}/{datafile_name}'
     purl_type_configs:
       - purl_type: github
         number_of_repos: 128
