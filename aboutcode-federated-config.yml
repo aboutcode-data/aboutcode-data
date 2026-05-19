@@ -103,7 +103,7 @@ data_clusters:
     documentation_url: 'https://github.com/aboutcode-org/vulnerablecode/'
     data_license: CC-BY-4.0
     data_maintainers: []
-  - data_kind: api_package_version_responses
+  - data_kind: api_package_version_response
     datafile_name: api_package_version_response.json
     datafile_path_template: '{/namespace}/{name}/{version}/{datafile_name}'
     purl_type_configs:
